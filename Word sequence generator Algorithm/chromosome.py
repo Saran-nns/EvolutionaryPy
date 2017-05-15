@@ -2,10 +2,11 @@
 
 import random
 
-#Function to generate parent chromosome
-#Geneset#Genotypes
 geneSet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!(){}; "
 target="while(noSuccess){ tryAgain(); if(Dead) break}"
+
+#Function to generate parent chromosome
+#Geneset#Genotypes
 
 def genotype(length):
     genes=[]
